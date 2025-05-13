@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for the dental clinic
+				dental: {
+					"offwhite": "#F9F9F9",
+					"pink": "#F8D3DA",
+					"peach": "#FFEFE6",
+					"gray": "#D2D2D2",
+					"aqua": "#C7EDE6",
+					"text": "#4A4A4A"
 				}
 			},
 			borderRadius: {
@@ -89,6 +99,9 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
 			}
 		}
 	},

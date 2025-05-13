@@ -1,8 +1,17 @@
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  text-align: left;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F9F9F9;
+  color: #4A4A4A;
 }
 
 .logo {
