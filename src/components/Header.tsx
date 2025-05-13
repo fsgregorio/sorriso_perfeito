@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import { Button } from "@/components/ui/button";
@@ -31,14 +30,11 @@ const Header = () => {
     window.open(whatsappUrl, "_blank");
   };
 
+  // Simplified nav items
   const navItems = [
     { name: "Serviços", href: "#servicos" },
-    { name: "Como funciona", href: "#invisalign-process" },
-    { name: "Comparação", href: "#invisalign-comparison" },
+    { name: "Invisalign", href: "#invisalign-process" },
     { name: "Resultados", href: "#before-after" },
-    { name: "Depoimentos", href: "#depoimentos" },
-    { name: "FAQ", href: "#faq" },
-    { name: "Sobre", href: "#sobre" },
     { name: "Contato", href: "#contato" },
   ];
 
@@ -98,23 +94,84 @@ const Header = () => {
         </div>
       </div>
       
-      {/* Mobile menu */}
+      {/* Mobile menu - keeping all options for mobile */}
       {isMobileMenuOpen && (
         <div className="lg:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <nav>
               <ul className="flex flex-col space-y-3">
-                {navItems.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
+                <li>
+                  <a
+                    href="#servicos"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Serviços
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#invisalign-process"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Como funciona
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#invisalign-comparison"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Comparação
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#before-after"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Resultados
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#depoimentos"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Depoimentos
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#faq"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    FAQ
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#sobre"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Sobre
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#contato"
+                    className="block py-2 text-dental-text hover:text-pink-500 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Contato
+                  </a>
+                </li>
                 <li>
                   <Button
                     onClick={handleWhatsAppClick}

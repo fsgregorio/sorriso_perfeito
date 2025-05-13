@@ -14,7 +14,7 @@ const StickyCTA = () => {
     <div className="fixed bottom-0 left-0 w-full z-50 p-4 flex justify-center md:justify-end">
       <button
         onClick={handleWhatsAppClick}
-        className="flex items-center bg-pink-400 hover:bg-pink-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 animate-pulse hover:animate-none"
+        className="flex items-center bg-pink-400 hover:bg-pink-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300"
       >
         <MessageCircleIcon className="h-5 w-5" />
         <span className="ml-2">Quero minha avaliação gratuita</span>

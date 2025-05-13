@@ -17,7 +17,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <div className="pt-16"> {/* Space for fixed header */}
+      <div className="pt-16 w-full"> {/* Added w-full for better responsiveness */}
         <Hero />
         <ValueProposition />
         <InvisalignProcess />
