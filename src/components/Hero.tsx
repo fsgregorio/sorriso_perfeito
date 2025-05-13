@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1581591524425-c7e0978865fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                src="/lovable-uploads/a3371264-1035-4d1c-a8af-89f390ded4a8.png"
                 alt="Sorriso perfeito"
                 className="w-full h-auto rounded-2xl"
               />

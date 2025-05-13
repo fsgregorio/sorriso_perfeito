@@ -6,22 +6,22 @@ const InvisalignProcess = () => {
     {
       title: "Escaneamento 3D do seu sorriso",
       description: "Captura digital precisa e sem desconforto.",
-      image: "https://images.unsplash.com/photo-1612361808330-a4aa89c244fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/9caf818e-fbe8-4b73-956d-d3686627ce3e.png",
     },
     {
       title: "Simulação do resultado final",
       description: "Veja como será seu sorriso antes de iniciar o tratamento.",
-      image: "https://images.unsplash.com/photo-1607979036079-dfd3e89cb551?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/40ea1478-fc81-41c3-97fe-ce635913429e.png",
     },
     {
       title: "Início do uso dos alinhadores invisíveis",
       description: "Troque os alinhadores a cada duas semanas e acompanhe o progresso.",
-      image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/9cb4db57-086c-4b50-81f6-87f60f5f4426.png",
     },
     {
       title: "Sorriso alinhado, sem aparelhos metálicos",
       description: "Resultado final com conforto e discrição durante todo o processo.",
-      image: "https://images.unsplash.com/photo-1513346940167-2d992d313668?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/681fdfcf-e4d0-4774-a8af-52bb017e3781.png",
     },
   ];
 
@@ -47,6 +47,7 @@ const InvisalignProcess = () => {
                   src={step.image}
                   alt={step.title}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-dental-text">{step.title}</h3>

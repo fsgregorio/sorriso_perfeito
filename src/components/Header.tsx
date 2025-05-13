@@ -30,14 +30,6 @@ const Header = () => {
     window.open(whatsappUrl, "_blank");
   };
 
-  // Simplified nav items
-  const navItems = [
-    { name: "Serviços", href: "#servicos" },
-    { name: "Invisalign", href: "#invisalign-process" },
-    { name: "Resultados", href: "#before-after" },
-    { name: "Contato", href: "#contato" },
-  ];
-
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -50,21 +42,6 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <Logo />
           
-          <nav className="hidden lg:block">
-            <ul className="flex space-x-6">
-              {navItems.map((item) => (
-                <li key={item.name}>
-                  <a
-                    href={item.href}
-                    className="text-dental-text hover:text-pink-500 transition-colors"
-                  >
-                    {item.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </nav>
-
           <div className="flex items-center space-x-4">
             <a
               href="tel:+551199999999"
