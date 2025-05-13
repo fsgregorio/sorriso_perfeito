@@ -6,22 +6,22 @@ const InvisalignProcess = () => {
     {
       title: "Escaneamento 3D do seu sorriso",
       description: "Captura digital precisa e sem desconforto.",
-      image: "/lovable-uploads/9caf818e-fbe8-4b73-956d-d3686627ce3e.png",
+      image: "/lovable-uploads/deb7870f-b0c0-4061-8f91-a5e9dbc531ba.png",
     },
     {
       title: "Simulação do resultado final",
       description: "Veja como será seu sorriso antes de iniciar o tratamento.",
-      image: "/lovable-uploads/40ea1478-fc81-41c3-97fe-ce635913429e.png",
+      image: "/lovable-uploads/8040bc7c-58f7-4cb4-8209-ce0bf9242789.png",
     },
     {
       title: "Início do uso dos alinhadores invisíveis",
       description: "Troque os alinhadores a cada duas semanas e acompanhe o progresso.",
-      image: "/lovable-uploads/9cb4db57-086c-4b50-81f6-87f60f5f4426.png",
+      image: "/lovable-uploads/11d28a10-99c4-438d-81bd-c60303598b77.png",
     },
     {
       title: "Sorriso alinhado, sem aparelhos metálicos",
       description: "Resultado final com conforto e discrição durante todo o processo.",
-      image: "/lovable-uploads/681fdfcf-e4d0-4774-a8af-52bb017e3781.png",
+      image: "/lovable-uploads/3bc76750-483a-4a93-a1d7-757ca379ed4a.png",
     },
   ];
 

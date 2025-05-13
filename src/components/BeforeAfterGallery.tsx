@@ -11,22 +11,22 @@ import {
 const BeforeAfterGallery = () => {
   const transformations = [
     {
-      before: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      after: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      before: "/lovable-uploads/3bc76750-483a-4a93-a1d7-757ca379ed4a.png",
+      after: "/lovable-uploads/3bc76750-483a-4a93-a1d7-757ca379ed4a.png",
       name: "Ana C.",
       description: "Correção de espaçamento e alinhamento em 8 meses"
     },
     {
-      before: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      after: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      name: "Rafael M.",
-      description: "Correção de mordida cruzada em 10 meses"
-    },
-    {
-      before: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      after: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      before: "/lovable-uploads/8040bc7c-58f7-4cb4-8209-ce0bf9242789.png",
+      after: "/lovable-uploads/8040bc7c-58f7-4cb4-8209-ce0bf9242789.png",
       name: "Júlia P.",
       description: "Alinhamento completo em apenas 6 meses"
+    },
+    {
+      before: "/lovable-uploads/11d28a10-99c4-438d-81bd-c60303598b77.png",
+      after: "/lovable-uploads/11d28a10-99c4-438d-81bd-c60303598b77.png",
+      name: "Rafael M.",
+      description: "Correção de mordida cruzada em 10 meses"
     },
   ];
 

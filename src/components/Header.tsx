@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import { Button } from "@/components/ui/button";
@@ -58,7 +59,7 @@ const Header = () => {
             </Button>
             
             <button 
-              className="lg:hidden"
+              className="md:flex"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
@@ -73,7 +74,7 @@ const Header = () => {
       
       {/* Mobile menu - keeping all options for mobile */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden bg-white shadow-lg">
+        <div className="bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <nav>
               <ul className="flex flex-col space-y-3">
