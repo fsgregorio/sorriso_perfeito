@@ -29,6 +29,11 @@ const BeforeAfterGallery = () => {
     },
   ];
 
+  // Note: As imagens são as mesmas para antes e depois porque provavelmente
+  // cada arquivo já contém a comparação antes/depois em uma única imagem.
+  // Se você tiver imagens separadas para antes e depois, substitua os valores
+  // do 'after' por caminhos diferentes.
+
   return (
     <section id="before-after" className="py-16 bg-white">
       <div className="container mx-auto px-4">
