@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { PhoneIcon } from "lucide-react";
 
@@ -34,7 +33,7 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/lovable-uploads/36268e9f-e0f6-4a92-afef-c56e8c8a6fed.png"
+                src="/lovable-uploads/1_hero.png"
                 alt="Sorriso perfeito"
                 className="w-full h-auto rounded-2xl"
               />

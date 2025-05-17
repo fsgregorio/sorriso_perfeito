@@ -1,4 +1,3 @@
-
 const Services = () => {
   const services = [
     {
@@ -6,28 +5,28 @@ const Services = () => {
       description:
         "Tenha um sorriso mais branco e brilhante com nosso tratamento de clareamento profissional.",
       image:
-        "/lovable-uploads/deb7870f-b0c0-4061-8f91-a5e9dbc531ba.png",
+        "/lovable-uploads/9_clareamento_dental.png",
     },
     {
       title: "Alinhamento ortodôntico com Invisalign",
       description:
         "Alinhe seus dentes de forma discreta e confortável com a tecnologia Invisalign.",
       image:
-        "/lovable-uploads/11d28a10-99c4-438d-81bd-c60303598b77.png",
+        "/lovable-uploads/10_alinhamento_ortodontico.png",
     },
     {
       title: "Gengivoplastia de precisão",
       description:
         "Procedimento de contorno gengival para harmonizar o seu sorriso.",
       image:
-        "/lovable-uploads/3bc76750-483a-4a93-a1d7-757ca379ed4a.png",
+        "/lovable-uploads/11_gengivoplastia.jpg",
     },
     {
       title: "Estética dentária geral",
       description:
         "Transformação completa do seu sorriso com procedimentos estéticos de última geração.",
       image:
-        "/lovable-uploads/36268e9f-e0f6-4a92-afef-c56e8c8a6fed.png",
+        "/lovable-uploads/12_estetica_dentaria.png",
     },
   ];
 

@@ -1,4 +1,3 @@
-
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { 
   Carousel,
@@ -11,20 +10,20 @@ import {
 const BeforeAfterGallery = () => {
   const transformations = [
     {
-      before: "/lovable-uploads/3bc76750-483a-4a93-a1d7-757ca379ed4a.png",
-      after: "/lovable-uploads/3bc76750-483a-4a93-a1d7-757ca379ed4a.png",
+      before: "/lovable-uploads/6_antes_depois1.png",
+      after: "/lovable-uploads/6_antes_depois1.png",
       name: "Ana C.",
       description: "Correção de espaçamento e alinhamento em 8 meses"
     },
     {
-      before: "/lovable-uploads/8040bc7c-58f7-4cb4-8209-ce0bf9242789.png",
-      after: "/lovable-uploads/8040bc7c-58f7-4cb4-8209-ce0bf9242789.png",
+      before: "/lovable-uploads/7_antes_depois2.png",
+      after: "/lovable-uploads/7_antes_depois2.png",
       name: "Júlia P.",
       description: "Alinhamento completo em apenas 6 meses"
     },
     {
-      before: "/lovable-uploads/11d28a10-99c4-438d-81bd-c60303598b77.png",
-      after: "/lovable-uploads/11d28a10-99c4-438d-81bd-c60303598b77.png",
+      before: "/lovable-uploads/8_antes_depois3.png",
+      after: "/lovable-uploads/8_antes_depois3.png",
       name: "Rafael M.",
       description: "Correção de mordida cruzada em 10 meses"
     },
